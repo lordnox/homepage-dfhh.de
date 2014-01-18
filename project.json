@@ -1,0 +1,50 @@
+{
+  "server": {
+    "devPort": 7001,
+    "coveragePort": 7002,
+    "testPort": 7003
+  },
+  "bowerpath": "bower_components",
+  "buildpath": "build/",
+  "client": "static",
+  "appbase": "app",
+  "apppath": "app/scripts",
+  "assetspath": "scripts",
+  "testpath": "app/scripts/modules/tests/{**/*,*}.js",
+  "templatesPath": "test/templates",
+  "files": {
+    "app": [
+        "modules/*/module.js",
+        "modules/*/app.js",
+        "modules/**/*.js",
+        "!**/tests/**"
+    ],
+    "bower": [
+      "angular/angular.js",
+      "angular-animate/angular-animate.js",
+      "angular-translate/angular-translate.js",
+      "angular-ui-router/release/angular-ui-router.js"
+    ],
+    "main": [
+      "app.js",
+      "translations.js"
+    ],
+    "3rd": [
+    ],
+    "tpl": [
+      "test/templates/templates.js"
+    ],
+    "test": [
+      "node_modules/chai/chai.js",
+      "test/lib/chai-should.js",
+      "test/lib/chai-expect.js"
+    ],
+    "styles": [
+      "app/styles/reset.css",
+      "app/styles/app.css"
+    ],
+    "templates": [
+      "scripts/**/*.html"
+    ]
+  }
+}

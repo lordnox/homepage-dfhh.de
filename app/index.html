@@ -1,0 +1,86 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="application" ng-controller="applicationController"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" ng-app="application" ng-controller="applicationController"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" ng-app="application" ng-controller="applicationController"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="application" ng-controller="applicationController"> <!--<![endif]-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="3 days" />
+    <meta name="keywords" content="Tanzschule Hamburg, Tanzkurse für alle Altersklassen, Turnierausbildung, Discofox,
+    Gesellschaftstanz, Paarkurse, Singlekurse, Jugendkurse, Tanzschule Hamburg, Tanzen Hamburg, Tanzkurse Hamburg,
+    Tanzschule, T&auml;nze, Tanz, tanzen, Hamburg, 	Gesellschaftstanz, Breitensporttanz, Discofox, Walzer, Salsa,
+    Samba, Chachacha, Jive, Tango, Wiener Walzer, Rumba, Hochzeit, Hochzeitswalzer, HipHop, Videoclip, Paarkurs,
+    Singlekurs, Jugendkurs, Westcoast Swing, Martina, Hayward, Martina Hayward, Hamburg" />
+    <meta name="description" content="Tanzkurse und Training für Beginner bis Profis. Tanzen in Hamburg mit Martina Hayward." />
+    <meta name="author" content="Tobias Kopelke - http://www.raynode.de" />
+    <meta name="publisher" content="Martina Hayward" />
+    <meta name="medium" content="image" />
+    <meta name="content-language" content="de" />
+    <meta name="DC.creator" content="Martina Hayward" />
+    <meta name="DC.description" content="Tanzkurse und Training für Beginner bis Profis. Tanzen in Hamburg mit Martina Hayward." />
+    <meta name="DC.publisher" content="Martina Hayward" />
+    <meta name="DC.contributor" content="Martina Hayward" />
+    <meta name="DC.language" content="de" scheme="DCTERMS.RFC3066" />
+    <meta name="DC.coverage" content="Hamburg" scheme="DCTERMS.TGN" />
+    <meta name="DC.rights" content="Martina Hayward" />
+
+    <title>Discofox-Hamburg.de - Tanzkurse mit Martina Hayward - Disco Fox, Westcoast Swing, Tanzen Discofox-Hamburg</title>
+
+    <link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/superfish.css" media="screen" />
+
+    <script type="xtext/javascript">
+      var mygallery=new fadeSlideShow({
+      	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+      	dimensions: [814, 266], //width/height of gallery in pixels. Should reflect dimensions of largest image
+      	imagearray: [
+        ["pics/header_news1.jpg", "", "", ""],
+        ["pics/header_news2.jpg", "", "", ""],
+        ["pics/header_news3.jpg", "", "", ""]
+        ],
+        displaymode: {type:'auto', pause:3000, cycles:0, wraparound:false},
+      	persist: false, //remember last viewed slide and recall within same session?
+      	fadeduration: 3000, //transition duration (milliseconds)
+      	descreveal: "ondemand",
+      	togglerid: ""
+      });
+    </script>
+  </head>
+
+<body>
+  <div id="topline"></div>
+  <div id="wrapper">
+   <div id="main">
+    <div id="logo"></div>
+    <div id="header">
+      <div id="headerPics">
+        <div id="fadeshow1"></div>
+      </div>
+      <div id="navi" ui-view="navigation">
+
+
+      </div> <!-- navi div -->
+      <div class="clear">
+      </div>
+
+    </div> <!-- header div -->
+
+  </div> <!-- main div -->
+
+</div> <!-- wrapper div -->
+
+<div id="content" ui-view>
+
+</div> <!-- content div -->
+
+<div id="footer" ui-view="footer">
+
+
+</div>
+<!-- footer div -->
+
+
+      <script src="./assets/app.js"></script>
+  </body>
+</html>
