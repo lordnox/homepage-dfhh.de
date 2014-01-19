@@ -25308,7 +25308,7 @@ angular.module('ui.router.compat')
     news.url = '/news.html';
 
     // if this is a non-root url...
-    if(window.location.pathname !== "/") {
+    if(window.location.pathname !== "/" && configProvider.routing.html5Mode) {
       // add the path to the current directory as a base for the abstract state
       root.url = window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/"));
     }
