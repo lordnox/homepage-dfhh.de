@@ -25240,7 +25240,7 @@ angular.module('ui.router.compat')
       routing : {
         prefix : '',
         html5Mode : !true,
-        default: "/index.html"
+        default: "/news.html"
       },
 
       template: function(module) {
