@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative:300|Yellowtail);
+
+@charset "utf-8";
+/* Discofox-Hamburg.de | CSS Stylesheet by ViewStudio | www.viewstudio.de */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  background-color:#f7f7f7;
+  line-height: 22px;
+  font-size: 14px;
+  color: #000000;
+  min-width: 800px;
+}
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {
+  margin:0px;
+  padding:0px;
+}
+
+a {outline: none;}
+
+div#topline {
+  height: 6px;
+  background-color: #810000;
+}
+
+div#wrapper {width: 100%;}
+
+div#main {
+  width: 975px;
+  height: 350px;
+  padding-top: 30px;
+  padding-right: 162px;
+  margin: 0 auto;
+}
+
+div#logo {
+  background-image: url(../pics/logo3.gif);
+  background-repeat: no-repeat;
+  background-position:right;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+div#header {
+  width: 975px;
+}
+
+div#headerPics {
+  width: 800px;
+  height: 266px;
+  float: right;
+  -moz-box-shadow: 0px 2px 5px #666;
+  -khtml-box-shadow: 0px 2px 5px #666;
+  -webkit-box-shadow: 0px 2px 5px #666;
+}
+
+div#title {
+  width: 800px;
+  height: 43px;
+  background-color: #e5e5e5;
+  background-image: url(../pics/title_back.jpg);
+  background-repeat: x-repeat;
+  background-position: right;
+}
+
+div#title p {
+  font-family: 'Yellowtail', cursive;
+  font-weight: normal;
+  font-size: 24px;
+  color: #a12923;
+  padding: 10px 12px;
+}
+
+div#content {
+  margin: 0 auto;
+  margin-bottom: 70px;
+  width: 800px;
+  background-color:#FFF;
+  -moz-box-shadow: 0px 5px 5px #666;
+  -khtml-box-shadow: 0px 5px 5px #666;
+  -webkit-box-shadow: 0px 5px 5px #666;
+}
+
+
+#title img {padding-left: 6px;}
+
+table {
+  border: 1px solid #CCCCCC;
+}
+
+a {
+  color:#a12923;
+  text-decoration:underline;
+  outline: none;
+}
+
+a:hover {
+  color:#a12923;
+  text-decoration:none;
+}
+
+.style2 {color: #a12923}
+
+.style3 {
+  color: #000000;
+  font-size: 12px;
+}
+
+#table2 img {
+  border: 3px solid #EEE;
+}
+
+table ul li {
+  list-style-position:inside;
+}
+
+/* Contact Form*/
+
+input, textarea {
+  padding: 8px;
+  border: solid 1px #E5E5E5;
+  outline: 0;
+  font: normal 13px/100% 'Signika Negative', sans-serif;
+  width: 200px;
+  background: #FFFFFF url('bg_form.png') left top repeat-x;
+  background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+  background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+textarea {
+  width: 490px;
+  max-width: 400px;
+  height: 150px;
+  line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  border-color: #C9C9C9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+.form label {
+  margin-left: 10px;
+  color: #999999;
+}
+
+.submit input {
+  width: auto;
+  padding: 9px 15px;
+  background: #617798;
+  border: 0;
+  font-size: 14px;
+  color: #FFFFFF;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+option {
+  width: 500px;
+}
+
+select {
+  color: #666666;
+  font-size: 13px;
+  border: 1px solid #D5D5D5;
+  background-color:#F8F8F8;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+div#footer {
+  width: 100%;
+  height: 50px;
+  font-size: 12px;
+  background: rgba(50,50,50,0.9);
+  left: 0px;
+  bottom: 0px;
+  position: fixed;
+}
+#footerContent div.left     { padding-left: 10px; float: left; }
+#footerContent div.center   { width: 100; text-align: center; }
+#footerContent div.right    { padding-right: 10px; float: right; }
+#footerContent>div          { padding: 10px; line-height: 30px; height: 30px; }
+div#footerContent           { height: 30px; margin: 0 auto; color:#CCCCCC; }
+#footer a                   { color:#CCC; }
+#footer a:hover             { color: #FFF; }
+
+
+
+@media (max-width: 990px) {
+  body {
+    background: red;
+  }
+}
+
+@media (max-width: 830px) {
+  div#footerContent {
+    width: 800px;
+  }
+
+  body {
+    background: blue;
+  }
+}
+
+@media (min-width: 1135px) {
+  body {
+    background: yellow;
+  }
+}
