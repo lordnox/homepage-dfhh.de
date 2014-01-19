@@ -25393,9 +25393,7 @@ var module = angular.module('application', [
     $rootScope.$stateParams = $stateParams;
   })
 
-  .controller('applicationController', function($scope) {
-    console.log('application loaded')
-  })
+  .controller('applicationController', function($scope) {})
 
 ;
 
