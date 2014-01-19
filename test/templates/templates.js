@@ -656,197 +656,217 @@ angular.module('app').run(['$templateCache', function($templateCache) {
   $templateCache.put('scripts/modules/app/templates/page-westcoastswing.html',
     "\n" +
     "<div id=\"title\"><p>West Coast Swing</p></div>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
     "\n" +
-    "<tr>\n" +
-    "    <td><p>Noch vor ein paar Jahren wusste kaum jemand, was mit diesem  Tanz gemeint ist.\n" +
-    "    Nun setzt er sich mehr und mehr auch in Europa durch. In  England und Frankreich\n" +
-    "    gibt es mittlerweile eine sehr große West Coast Swing  Szene. In Deutschland ist\n" +
-    "    dieser Tanz immer noch ein Geheimtipp, aber wahrscheinlich bald schon, <strong>der Tanz der Zukunft</strong>.</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "    <p>Der West Coast Swing hat etwas von Discofox,  Blues, Salsa und ist doch ganz anders,\n" +
-    "    mit zwei Worten – <strong>natürlich und cool</strong>.  Wir bieten <strong>5 x pro Woche</strong> die Möglichkeit,\n" +
-    "    diesen Tanz zu erlernen und es lohnt  sich.</p>\n" +
-    "    <p>&nbsp;</p>\n" +
-    "    <p><strong>Die Tanzkurse für West Coast Swing kosten 75 € pro Person und laufen  jeweils über 6 Wochen.</strong></p>\n" +
-    "    <p>Für Paare, die längerfristig  tanzen wollen und Schüler / Studenten, gibt es einen attraktiven Clubbeitrag.</p>\n" +
-    "    <p>&nbsp;</p>\n" +
-    "    <p>Zur Anmeldung und für weitere Informationen zum jeweiligen Veranstaltungsort, melden Sie sich bitte bei:</p>\n" +
-    "    <p><strong>Martina Hayward </strong>per<strong> <a href=\"mailto:martina.hayward@web.de\">E-Mail</a></strong>, unter <strong class=\"style2\">0176 / 81 81 42 20</strong> oder, zunächst unverbindlich, über das <a href=\"kontakt.html\"><strong>Anmeldeformular</strong></a> an. Sie erhalten dann alle Informationen zum jeweiligen Kurs.</p></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "<td></td>\n" +
-    "</tr>\n" +
+    "<table class=\"data\">\n" +
+    "\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p>Noch vor ein paar Jahren wusste kaum jemand, was mit diesem  Tanz gemeint ist. Nun setzt er sich mehr und mehr auch in Europa durch. In  England und Frankreich gibt es mittlerweile eine sehr große West Coast Swing  Szene. In Deutschland ist dieser Tanz immer noch ein Geheimtipp, aber wahrscheinlich bald schon, <strong>der Tanz der Zukunft</strong>.</p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p>Der West Coast Swing hat etwas von Discofox,  Blues, Salsa und ist doch ganz anders, mit zwei Worten – <strong>natürlich und cool</strong>.  Wir bieten <strong>5 x pro Woche</strong> die Möglichkeit, diesen Tanz zu erlernen und es lohnt  sich.</p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p><strong>Die Tanzkurse für West Coast Swing kosten 75 € pro Person und laufen  jeweils über 6 Wochen.</strong></p>\n" +
+    "      <p>Für Paare, die längerfristig  tanzen wollen und Schüler / Studenten, gibt es einen attraktiven Clubbeitrag.</p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p>Zur Anmeldung und für weitere Informationen zum jeweiligen Veranstaltungsort, melden Sie sich bitte bei:</p>\n" +
+    "      <p><strong>Martina Hayward </strong>per<strong> <a href=\"mailto:martina.hayward@web.de\">E-Mail</a></strong>, unter <strong class=\"style2\">0176 / 81 81 42 20</strong> oder, zunächst unverbindlich, über das <a href=\"kontakt.html\"><strong>Anmeldeformular</strong></a> an. Sie erhalten dann alle Informationen zum jeweiligen Kurs.</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
     "</table>\n" +
     "\n" +
     "\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
-    "<tr>\n" +
-    "  <td width=\"170\" valign=\"top\"><span class=\"style2\"><strong>Beginner (Anfänger):</strong></span></td>\n" +
-    "  <td width=\"170\" valign=\"top\"><strong>Montags:</strong></td>\n" +
-    "  <td valign=\"top\"><p>20.00 - 21.00  Uhr</p></td>\n" +
-    "</tr>\n" +
+    "<table class=\"data time\">\n" +
+    "  <tr>\n" +
+    "    <td><span class=\"style2\"><strong>Beginner (Anfänger):</strong></span></td>\n" +
+    "    <td><strong>Montags:</strong></td>\n" +
+    "    <td><p>20.00 - 21.00  Uhr</p></td>\n" +
+    "  </tr>\n" +
     "</table>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
-    "<tr>\n" +
-    "<td width=\"170\" valign=\"top\"><span class=\"style2\"><strong>Intermediate (Mittelstufe):</strong></span></td>\n" +
-    "<td width=\"170\" valign=\"top\"><strong>Mittwochs:</strong></td>\n" +
-    "<td valign=\"top\"><p>19.00 - 20.00 Uhr</p>\n" +
-    "  <p>Veranstaltungsort:  Wandsbek</p></td>\n" +
-    "</tr>\n" +
+    "\n" +
+    "<table class=\"data time\">\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p><span class=\"style2\"><strong>Intermediate (Mittelstufe):</strong></span></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p><strong>Mittwochs:</strong></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p>19.00 - 20.00 Uhr</p>\n" +
+    "      <p>Veranstaltungsort:  Wandsbek</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
     "</table>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
-    "<tr>\n" +
-    "<td width=\"170\" valign=\"top\"><span class=\"style2\"><strong>Übungszeit:</strong></span></td>\n" +
-    "<td width=\"170\" valign=\"top\"><strong>Mittwochs:</strong></td>\n" +
-    "<td valign=\"top\"><p>20.00 - 21.00 Uhr</p>\n" +
-    "  <p>Veranstaltungsort:  Wandsbek</p></td>\n" +
-    "</tr>\n" +
+    "\n" +
+    "<table class=\"data time\">\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p><span class=\"style2\"><strong>Übungszeit:</strong></span></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p><strong>Mittwochs:</strong></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p>20.00 - 21.00 Uhr</p>\n" +
+    "      <p>Veranstaltungsort:  Wandsbek</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
     "</table>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
-    "<tr>\n" +
-    "<td width=\"170\" valign=\"top\"><p class=\"style2\"><strong>Monatlicher Workshop:</strong></p>\n" +
-    "  <p class=\"style2\">(Termine &amp; Themen: </p>\n" +
-    "  <p class=\"style2\">siehe <a href=\"workshops.html\">Workshops</a><strong>)</strong></p></td>\n" +
-    "<td width=\"170\" valign=\"top\"><strong>Montags:</strong></td>\n" +
-    "<td valign=\"top\"><p>21.00 - 22.30 Uhr</p></td>\n" +
-    "</tr>\n" +
+    "\n" +
+    "<table class=\"data time\">\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p class=\"style2\"><strong>Monatlicher Workshop:</strong></p>\n" +
+    "      <p class=\"style2\">(Termine &amp; Themen: </p>\n" +
+    "      <p class=\"style2\">siehe <a href=\"workshops.html\">Workshops</a><strong>)</strong></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p><strong>Montags:</strong></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p>21.00 - 22.30 Uhr</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
     "</table>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
-    "<tr>\n" +
-    "<td width=\"170\" valign=\"top\"><span class=\"style2\"><strong>Advanced (Fortgeschritten):</strong></span></td>\n" +
-    "<td width=\"170\" valign=\"top\"><strong>Dienstags:</strong></td>\n" +
-    "<td valign=\"top\"><p>20.00 - 21.30 Uhr (durchgehend)</p>\n" +
-    "  <p>Veranstaltungsort:  Eimsbüttel</p></td>\n" +
-    "</tr>\n" +
-    "</table>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "</div>\n"
+    "\n" +
+    "<table class=\"data time\">\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p><span class=\"style2\"><strong>Advanced (Fortgeschritten):</strong></span></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p><strong>Dienstags:</strong></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p>20.00 - 21.30 Uhr (durchgehend)</p>\n" +
+    "      <p>Veranstaltungsort:  Eimsbüttel</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "</table>\n"
   );
 
 
   $templateCache.put('scripts/modules/app/templates/page-workshops.html',
     "\n" +
     "<div id=\"title\"><p>Workshops</p></div>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
     "\n" +
-    "<tr>\n" +
+    "<table class=\"data\">\n" +
+    "  <tr>\n" +
     "    <td>\n" +
-    "    <p>Wir bieten für alle, die schnell tanzen lernen wollen, Workshops für Discofox und West Coast Swing an.\n" +
-    "    Die Workshops laufen jeweils über drei Stunden. Es werden grundlegende Kenntnisse vermittelt, aber auch\n" +
-    "    schon ein paar spektakuläre Figuren gezeigt.</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "    <p>Zu  jedem Workshop kann man sich auch allein anmelden. Wir versuchen dann, einen  Tanzpartner zu finden.</p>\n" +
-    "    <p>&nbsp;</p>\n" +
-    "    <p><strong>Die Kurse finden von 13.00 bis 16.00 bzw. von 16.00 bis  19.00 Uhr statt und  kosten 40 € pro Person.</strong></p>\n" +
-    "    <p>&nbsp;</p>\n" +
-    "    <p><strong>Veranstaltungsort:</strong> Kulturschloss Wandsbek, Königsreihe 4, Hamburg-Wandsbek</p>\n" +
-    "    <p>&nbsp;</p>\n" +
-    "    <p>Zur Anmeldung und für weitere Informationen zum jeweiligen Veranstaltungsort, melden Sie sich bitte bei:</p>\n" +
-    "    <p><strong>Martina Hayward </strong>per<strong> <a href=\"mailto:martina.hayward@web.de\">E-Mail</a></strong>, unter <strong class=\"style2\">0176 / 81 81 42 20</strong> oder, zunächst unverbindlich, über das <a href=\"kontakt.html\"><strong>Anmeldeformular</strong></a> an.</p>\n" +
-    "    <p>Sie erhalten dann alle Informationen zum jeweiligen Kurs.</p></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "<td>\n" +
-    "</td>\n" +
-    "</tr>\n" +
-    "</table>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
-    "<tr>\n" +
-    "<td width=\"100\"><span class=\"style2\"><strong>Discofox</strong></span></td>\n" +
-    "<td><strong>Workshop für Einsteiger</strong></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "<td>&nbsp;</td>\n" +
-    "<td valign=\"top\"><p>Hier lernst  du den Grundschritt und einfache Schrittkombinationen mit der dazugehörigen  Technik.</p>\n" +
-    "  <p>Jeweils in der Zeit von 11.00 bis 14.00 Uhr.\n" +
-    "    Keine Angst,  so schwer ist das gar nicht.</p>\n" +
-    "  <p><br />\n" +
-    "    <strong>Termine:</strong><br />\n" +
-    " 18. Januar  2014<br />\n" +
-    " 15. Februar  2014</p>\n" +
-    "  <p>15. März 2014</p>\n" +
-    "  <p>&nbsp;</p>\n" +
-    "  <p><strong>7. Dezember  2013 </strong></p>\n" +
-    "  <p><strong>Workshop Special für  Clubmitglieder:</strong><br />\n" +
-    "    Stephan Guttenberger, einer der  erfolgreichsten Discofox\n" +
-    "    Tänzer überhaupt, zeigt unseren Turnierpaaren,  wie sie noch besser werden können.</p></td>\n" +
-    "</tr>\n" +
-    "</table>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<table width=\"790\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"6\">\n" +
-    "<tr>\n" +
-    "<td width=\"100\"><span class=\"style2\"><strong>West Coast Swing</strong></span></td>\n" +
-    "<td valign=\"top\"><p><strong>Workshop für Einsteiger</strong></p></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "<td>&nbsp;</td>\n" +
-    "<td><p>Hier lernst du den Grundschritt und einfache  Schrittkombinationen mit der dazugehörigen Technik. Dieser Workshop ist auch  für Paare geeignet, die Sicherheit gewinnen wollen. Jeweils in  der Zeit von 11.00 bis 14.00 Uhr.</p>\n" +
-    "<p><br />\n" +
-    "    <strong>Termine:</strong><br />\n" +
-    "    18. Januar  2014<br />\n" +
-    "15. Februar  2014<br />\n" +
-    "15. März 2014</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<p><strong>Monatliche  Workshops für Fortgeschrittene:</strong></p>\n" +
-    "<p>Immer  montags von 21.00 bis 22.30 Uhr</p></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "  <td>&nbsp;</td>\n" +
-    "  <td>&nbsp;</td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "  <td rowspan=\"2\" valign=\"top\"><p><strong class=\"style2\">02.12.2013 &amp;</strong></p>\n" +
-    "    <p class=\"style2\"><strong>11.01.2014</strong></p>\n" +
-    "    <p class=\"style3\">11.00-14.00 Uhr</p></td>\n" +
-    "  <td><strong>&ldquo;After Workshop&rdquo; Catriona  Wiles und Paul Wardon</strong></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "  <td><p>Die Inhalte des Intensiv Workshops vom August 2013  werden wiederholt und vertieft. </p>\n" +
-    "    <p>Workshopteilnehmer  zahlen 15 € pro Person. Wer nicht dabei war, zahlt 35 € pro Person.</p></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "  <td rowspan=\"2\" valign=\"top\" class=\"style2\"><p><strong class=\"style2\">16.12.2013 &amp;</strong></p>\n" +
-    "    <p><strong>08.02.2014</strong></p>\n" +
-    "    <p><span class=\"style3\">11.00-14.00 Uhr</span></p></td>\n" +
-    "  <td><strong>&bdquo;After Workshop&ldquo; Chuck Brown</strong></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "  <td><p>Die Inhalte des Workshops werden wiederholt. Dies  geschieht\n" +
-    "    besonders  im Hinblick auf <strong>Technik</strong>.</p></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "  <td><strong class=\"style2\">21.12.2013</strong></td>\n" +
-    "  <td><strong>West Coast Swing Intensiv</strong></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "  <td>&nbsp;</td>\n" +
-    "  <td><p>West Coast Swing  Intensiv mit &bdquo;The Man&ldquo; Douglas aus den USA in der Zeit  von 11.00 bis 15.00 Uhr im &bdquo;Tango Chocolate&ldquo;.</p>\n" +
-    "<p class=\"style2\"><strong>SOLD  OUT</strong></p></td>\n" +
-    "</tr>\n" +
-    "<tr>\n" +
-    "  <td>&nbsp;</td>\n" +
-    "  <td>&nbsp;</td>\n" +
-    "</tr>\n" +
+    "      <p>Wir bieten für alle, die schnell tanzen lernen wollen, Workshops für Discofox und West Coast Swing an. Die Workshops laufen jeweils über drei Stunden. Es werden grundlegende Kenntnisse vermittelt, aber auch schon ein paar spektakuläre Figuren gezeigt.</p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p>Zu jedem Workshop kann man sich auch allein anmelden. Wir versuchen dann, einen Tanzpartner zu finden.</p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p><strong>Die Kurse finden von 13.00 bis 16.00 bzw. von 16.00 bis 19.00 Uhr statt und kosten 40 € pro Person.</strong></p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p><strong>Veranstaltungsort:</strong> Kulturschloss Wandsbek, Königsreihe 4, Hamburg-Wandsbek</p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p>Zur Anmeldung und für weitere Informationen zum jeweiligen Veranstaltungsort, melden Sie sich bitte bei:</p>\n" +
+    "      <p><strong>Martina Hayward </strong>per<strong> <a href=\"mailto:martina.hayward@web.de\">E-Mail</a></strong>, unter <strong class=\"style2\">0176 / 81 81 42 20</strong> oder, zunächst unverbindlich, über das <a href=\"kontakt.html\"><strong>Anmeldeformular</strong></a> an.</p>\n" +
+    "      <p>Sie erhalten dann alle Informationen zum jeweiligen Kurs.</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
     "</table>\n" +
     "\n" +
-    "<p>&nbsp;</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "<p>&nbsp;</p>\n" +
-    "</div>\n"
+    "<table class=\"data info\">\n" +
+    "  <tr>\n" +
+    "    <td><span class=\"style2\"><strong>Discofox</strong></span></td>\n" +
+    "    <td><strong>Workshop für Einsteiger</strong></td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td>&nbsp;</td>\n" +
+    "    <td>\n" +
+    "      <p>Hier lernst du den Grundschritt und einfache Schrittkombinationen mit der dazugehörigen Technik.</p>\n" +
+    "      <p>Jeweils in der Zeit von 11.00 bis 14.00 Uhr. Keine Angst, so schwer ist das gar nicht.</p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p>\n" +
+    "        <strong>Termine:</strong><br />\n" +
+    "        18. Januar 2014<br />\n" +
+    "        15. Februar 2014\n" +
+    "      </p>\n" +
+    "      <p>15. März 2014</p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p><strong>7. Dezember 2013 </strong></p>\n" +
+    "      <p><strong>Workshop Special für Clubmitglieder:</strong><br /> Stephan Guttenberger, einer der erfolgreichsten Discofox Tänzer überhaupt, zeigt unseren Turnierpaaren, wie sie noch besser werden können.</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "</table>\n" +
+    "\n" +
+    "<table class=\"data info\">\n" +
+    "  <tr>\n" +
+    "    <td><span class=\"style2\"><strong>West Coast Swing</strong></span></td>\n" +
+    "    <td><p><strong>Workshop für Einsteiger</strong></p></td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td>&nbsp;</td>\n" +
+    "    <td><p>Hier lernst du den Grundschritt und einfache Schrittkombinationen mit der dazugehörigen Technik. Dieser Workshop ist auch für Paare geeignet, die Sicherheit gewinnen wollen. Jeweils in der Zeit von 11.00 bis 14.00 Uhr.</p>\n" +
+    "      <p>\n" +
+    "        <br />\n" +
+    "        <strong>Termine:</strong><br />\n" +
+    "        18. Januar 2014<br />\n" +
+    "        15. Februar 2014<br />\n" +
+    "        15. März 2014\n" +
+    "      </p>\n" +
+    "      <p>&nbsp;</p>\n" +
+    "      <p><strong>Monatliche Workshops für Fortgeschrittene:</strong></p>\n" +
+    "      <p>Immer montags von 21.00 bis 22.30 Uhr</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p><strong class=\"style2\">02.12.2013 &amp;</strong></p>\n" +
+    "      <p class=\"style2\"><strong>11.01.2014</strong></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <strong>&ldquo;After Workshop&rdquo; Catriona Wiles und Paul Wardon</strong>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p class=\"style3\">11.00-14.00 Uhr</p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p>Die Inhalte des Intensiv Workshops vom August 2013 werden wiederholt und vertieft. </p>\n" +
+    "      <p>Workshopteilnehmer zahlen 15 € pro Person. Wer nicht dabei war, zahlt 35 € pro Person.</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td class=\"style2\">\n" +
+    "      <p><strong class=\"style2\">16.12.2013 &amp;</strong></p>\n" +
+    "      <p><strong>08.02.2014</strong></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <strong>&bdquo;After Workshop&ldquo; Chuck Brown</strong>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p><span class=\"style3\">11.00-14.00 Uhr</span></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p>Die Inhalte des Workshops werden wiederholt. Dies geschieht besonders im Hinblick auf <strong>Technik</strong>.</p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td>\n" +
+    "      <p><strong class=\"style2\">21.12.2013</strong></p>\n" +
+    "    </td>\n" +
+    "    <td>\n" +
+    "      <p><strong>West Coast Swing Intensiv</strong></p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td>&nbsp;</td>\n" +
+    "    <td>\n" +
+    "      <p>West Coast Swing Intensiv mit &bdquo;The Man&ldquo; Douglas aus den USA in der Zeit von 11.00 bis 15.00 Uhr im &bdquo;Tango Chocolate&ldquo;.</p>\n" +
+    "      <p class=\"style2\"><strong>SOLD OUT</strong></p>\n" +
+    "    </td>\n" +
+    "  </tr>\n" +
+    "  <tr>\n" +
+    "    <td>&nbsp;</td>\n" +
+    "    <td>&nbsp;</td>\n" +
+    "  </tr>\n" +
+    "</table>\n"
   );
 
 }]);
