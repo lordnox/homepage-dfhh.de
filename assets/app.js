@@ -25244,8 +25244,11 @@ angular.module('ui.router.compat')
       },
 
       template: function(module) {
+        console.log('template finder for ' + module)
         var templateBase = templatePath.concat([module]).concat([templateDirectory])
         var tplFn = function(path) {
+          console.log('lookup for ' + path + ' « ' + module);
+          console.log(templateBase.concat(Array.prototype.slice.call(arguments)).join('/') + templateSuffix);
           return templateBase.concat(Array.prototype.slice.call(arguments)).join('/') + templateSuffix;
         };
         tplFn.abstract = abstractTemplate;
@@ -25349,6 +25352,8 @@ angular.module('ui.router.compat')
         templateUrl: template('page-impressum')
       })
     ;
+
+    console.log('states did load!')
 
   })
   .controller('navigationController', function($scope, $state) {
