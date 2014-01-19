@@ -63,6 +63,7 @@ div#headerPics {
 div#title {
   width: 800px;
   height: 43px;
+  margin-bottom: 1.5em;
   background-color: #e5e5e5;
   background-image: url(../pics/title_back.jpg);
   background-repeat: x-repeat;
@@ -200,23 +201,21 @@ div#footerContent           { height: 30px; margin: 0 auto; color:#CCCCCC; }
 #footer a                   { color:#CCC; }
 #footer a:hover             { color: #FFF; }
 
-table.data {
+table.data, table.content {
   margin: 0 5px;
   margin-bottom: 1.5em;
   width: 790px;
 }
 
-table.data td {
+table.data td, table.content td {
   padding: 9px;
 }
 
-table.data.info tr td:first-child {
+table.data tr td:first-child {
   width: 140px;
+  vertical-align: top;
 }
-table.data.time tr td:first-child {
-  width: 170px;
-}
-table.data.time tr td:nth-child(2) {
+table.data.time tr td:first-child, table.data.time tr td:nth-child(2) {
   width: 170px;
 }
 

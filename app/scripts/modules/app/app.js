@@ -73,6 +73,10 @@ var app = angular.module('app', [
         url: '/anmeldungen.html',
         templateUrl: template('page-anmeldungen')
       })
+      .state('app.impressum', {
+        url: '/impressum.html',
+        templateUrl: template('page-impressum')
+      })
     ;
 
   })
